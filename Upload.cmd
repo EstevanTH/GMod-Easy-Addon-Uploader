@@ -135,6 +135,7 @@ goto update
 :new
 if not exist "%name%.jpg" goto noicon
 "%GarrysMod%\bin\gmpublish.exe" create -addon "%target%" %thumbnail%
+if errorlevel 1 goto uperror
 echo.
 set /P WorkshopId=Enter the displayed UID: 
 echo set WorkshopId=%WorkshopId%> workshop_id.cmd
@@ -147,9 +148,9 @@ set changes=+%changes%
 set changes=%changes:"='%
 set changes=%changes:~1%
 "%GarrysMod%\bin\gmpublish.exe" update -addon "%target%" %thumbnail% -id "%WorkshopId%" -changes "%changes%"
+if errorlevel 1 goto uperror
 goto finished
 :finished
-del "%target%"> NUL 2>&1
 goto end
 
 :: Error: Missing binaries!
@@ -176,6 +177,13 @@ echo %name%.jpg
 echo Choose quality 100 if you can.
 goto end
 
+:: Error: GMA not uploaded!
+:uperror
+echo.
+echo The addon could not be uploaded.
+goto end
+
 :: End
 :end
+del "%target%"> NUL 2>&1
 pause
