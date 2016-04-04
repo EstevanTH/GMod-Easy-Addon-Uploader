@@ -20,7 +20,7 @@ If you do not want to place the addon in your *garrysmod\addons* folder then you
  * Remove useless files or blacklist them with the `"ignore"` section of your *addon.json*.
  * **Models** must be placed somewhere in the *models* folder.
  * **Sounds** must be placed somewhere in the *sound* folder.
- * **Materials**, textures and PNG images must be placed somewhere in the *materials* folder.
+ * **Materials, textures and PNG images** must be placed somewhere in the *materials* folder.
  * **Lua scripts** must be placed somewhere in the *lua* folder.
  * **Vehicle scripts** must be placed in the *scripts\vehicles* folder.
  * **Fonts** must be placed in the *resource\fonts* folder.
