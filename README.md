@@ -31,6 +31,11 @@ If you do not want to place the addon in your *garrysmod\addons* folder then you
  * Replace `000000000` by the UID of your addon. You can see it in the URL of your Workshop addon.
 * I made a mistake in my *addon.json*, how do I re-generate it?
  * Remove *addon.json*. You will have to enter information again.
+* *GMad* tells me that I have uppercase characters, spaces or whatever forbidden in filenames!
+ * Simply rename everything including extensions to make them: lowercase, no accents, no spaces.
+ * If you rename models, you really should modify your QC script and re-generate the model (bug with *Entity:GetModel()* clientside).
+ * If you rename textures, do not forget to modify VMTs that need them.
+ * Of course, do not forget to update your scripts in order to match with the new filenames.
 
 ## Links
 
