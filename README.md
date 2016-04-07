@@ -26,7 +26,7 @@ If you do not want to place the addon in your *garrysmod\addons* folder then you
  * **Fonts** must be placed in the *resource\fonts* folder.
  * etc.
 * I accidentally closed the window when it asked for the UID, I removed the *workshop_id.cmd*, or I mistyped the UID!
- * Create or edit the file *workshop_id.cmd*.
+ * Create or edit the file *workshop_id.cmd*
  * Place this code inside: `set WorkshopId=000000000`
  * Replace `000000000` by the UID of your addon. You can see it in the URL of your Workshop addon.
 * I made a mistake in my *addon.json*, how do I re-generate it?
