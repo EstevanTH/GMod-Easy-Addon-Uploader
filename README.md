@@ -36,6 +36,9 @@ If you do not want to place the addon in your *garrysmod\addons* folder then you
  * If you rename models, you really should modify your QC script and re-generate the model (bug with *Entity:GetModel()* clientside).
  * If you rename textures, do not forget to modify VMTs that need them.
  * Of course, do not forget to update your scripts in order to match with the new filenames.
+* *GMPublish* returns an error that I do not understand after uploading!
+ * You probably put accents / special characters in the title of your addon. The Windows console does not use the UTF-8 character set, so it generates illegal UTF-8 sequences. Please remove accents or edit your *addon.json* as UTF-8.
+ * The change note must not contain accents either for the same reason. Please do not type accents.
 
 ## Links
 
