@@ -7,6 +7,7 @@
 2. Create a thumbnail for your addon: picture of 512x512 pixels.
 Save it as a JPEG image in *the folder of your addon* and name it the same as *the folder of your addon*.
 Choose quality 100 if possible.
+The [chroma subsampling](https://en.wikipedia.org/wiki/Chroma_subsampling) must be **4:2:0** (for instance GIMP and Photoshop can use 4:2:2 or 4:4:4).
 
 3. Place *Upload.cmd* in *the folder of your addon*.
 
