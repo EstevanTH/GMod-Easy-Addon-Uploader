@@ -2,7 +2,7 @@
 
 ## Instructions
 
-1. Create *the folder of your addon* in *garrysmod\addons* and place files in it.
+1. Create *the folder of your addon* in *garrysmod\addons* and place your files in it. If your addon is already there then ignore this step.
 
 2. Create a thumbnail for your addon: picture of 512x512 pixels.
 Save it as a JPEG image in *the folder of your addon* and name it the same as *the folder of your addon*.
