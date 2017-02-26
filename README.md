@@ -11,7 +11,9 @@ The [chroma subsampling](https://en.wikipedia.org/wiki/Chroma_subsampling) must 
 
 3. Place *Upload.cmd* in *the folder of your addon*.
 
-4. Run *Upload.cmd* and follow instructions until the window closes automatically.
+4. Run *Upload.cmd* and follow instructions **until the window closes automatically**.
+
+When you want to update, just run *Upload.cmd* and enter the reason (with only US-ASCII characters). Your addon must contain the files *addon.json* and *workshop_id.cmd*.
 
 If you do not want to place the addon in your *garrysmod\addons* folder then you need to make sure that the *GarrysMod* path is correct by editing *Upload.cmd*.
 
